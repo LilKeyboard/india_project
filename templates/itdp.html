@@ -2,4 +2,51 @@
 
 {% block content %}
 <h1>Itdp</h1>
+
+<div class="container">
+    <div class="row g-3">
+        <div class="col-12 col-md6 col-lg-4">
+            <div class="card">
+                <img src="{{ url_for('static', filename='intern_example.png') }}" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Name Surname</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Current Role: ...</h6>
+                    <p class="card_text">Description...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md6 col-lg-4">
+            <div class="card">
+                <img src="{{ url_for('static', filename='itdp_example2.jpg') }}" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Name Surname</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Current Role: ...</h6>
+                    <p class="card_text">Description...</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md6 col-lg-4">
+            <div class="card">
+                <img src="{{ url_for('static', filename='itdp_example.jpg') }}" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Name Surname</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Current Role: ...</h6>
+                    <p class="card_text">Description...</p>
+                </div>
+            </div>
+        </div>
+            <div class="col-12 col-md6 col-lg-4">
+            <div class="card">
+                <img src="{{ url_for('static', filename='intern_example.png') }}" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Name Surname</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Current Role: ...</h6>
+                    <p class="card_text">Description...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 {% endblock %}
